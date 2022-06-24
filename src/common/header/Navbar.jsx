@@ -40,7 +40,7 @@ const Navbar = () => {
                     <button className='toggle' onClick={() => setMobileMenu(!mobileMenu)}>
                         {
                             mobileMenu ? <i className='fas fa-times close home-bth'></i> :
-                                <i className='fas fa-bars open'></i>
+                                <i className='fa solid fa-bars open'></i>
                         }
                     </button>
                 </div>
